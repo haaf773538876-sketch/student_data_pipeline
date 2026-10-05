@@ -1,0 +1,90 @@
+2026-09-20 16:09:34,250 | INFO | Pipeline started.
+2026-09-20 16:09:34,251 | INFO | Loading data from data\raw\students_raw.csv
+2026-09-20 16:09:34,270 | INFO | Loaded 8 rows and 6 columns
+2026-09-20 16:09:34,313 | INFO | Saved processed data to data\processed\students_ml_ready.csv
+2026-09-20 16:09:34,313 | INFO | Pipeline completed successfully.
+2026-09-24 00:14:43,546 | INFO | === »œ¡  ‘€Ì· Data Pipeline ===
+2026-09-24 00:14:43,547 | INFO | Loading data from data\raw\students_raw.csv
+2026-09-24 00:14:43,558 | INFO | Loaded 8 rows and 6 columns
+2026-09-24 00:14:43,558 | INFO | Starting API extraction from: https://jsonplaceholder.typicode.com/users
+2026-09-24 00:14:43,711 | ERROR | Failed to connect to the API.
+2026-09-24 00:14:43,713 | INFO | Starting Database extraction from: database/students.db
+2026-09-24 00:14:43,737 | INFO | Successfully extracted 4 records from Database.
+2026-09-24 00:14:43,796 | INFO | Starting Data Integration...
+2026-09-24 00:14:43,802 | INFO | Database data merged successfully.
+2026-09-24 00:14:43,803 | INFO | Integration completed. Resulting dataset shape: (9, 9)
+2026-09-24 00:14:43,803 | INFO | Starting Data Transformation...
+2026-09-24 00:14:43,805 | INFO | Data Transformation completed successfully.
+2026-09-24 00:14:43,822 | INFO | === «ﬂ „· „”«— «·»Ì«‰«  »‰Ã«Õ! ===
+2026-10-05 16:53:07,593 | INFO | === »œ¡  ‘€Ì· Data Pipeline ===
+2026-10-05 16:53:07,611 | INFO |  „  Õ„Ì· 8 ”Ã· „‰ „·› CSV.
+2026-10-05 16:53:07,925 | ERROR | Œÿ√ ›Ì «” Œ—«Ã »Ì«‰«  API: HTTPSConnectionPool(host='jsonplaceholder.typicode.com', port=443): Max retries exceeded with url: /users (Caused by NameResolutionError("HTTPSConnection(host='jsonplaceholder.typicode.com', port=443): Failed to resolve 'jsonplaceholder.typicode.com' ([Errno 11001] getaddrinfo failed)"))
+2026-10-05 16:53:07,939 | INFO |  „ «” Œ—«Ã 6 ”Ã· „‰ ﬁ«⁄œ… »Ì«‰«  SQLite.
+2026-10-05 16:53:08,023 | INFO |  „ «” Œ—«Ã Ê ”ÊÌ… 6 ”Ã· „‰ MongoDB.
+2026-10-05 16:53:08,025 | INFO | »œ¡  ‰ŸÌ› «·»Ì«‰«  «·√”«”Ì…...
+2026-10-05 16:53:08,040 | INFO | «ﬂ „· «· ‰ŸÌ›. ⁄œœ «·”Ã·«  «·„ »ﬁÌ…: 6
+2026-10-05 16:53:08,040 | INFO | »œ¡ œ„Ã «·»Ì«‰«  „‰ Ã„Ì⁄ «·„’«œ—...
+2026-10-05 16:53:08,050 | INFO | «ﬂ „· «·œ„Ã »‰Ã«Õ. ≈Ã„«·Ì «·√⁄„œ…: ['student_id', 'student_name', 'age', 'major', 'city', 'status', 'skills', 'academic.gpa', 'academic.attendance', 'average_score']
+2026-10-05 16:53:08,060 | INFO | === «ﬂ „· „”«— «·»Ì«‰«  »‰Ã«Õ! ===
+2026-10-05 16:58:47,295 | INFO | === »œ¡  ‘€Ì· Data Pipeline ===
+2026-10-05 16:58:47,312 | INFO |  „  Õ„Ì· 8 ”Ã· „‰ „·› CSV.
+2026-10-05 16:58:47,442 | ERROR | Œÿ√ ›Ì «” Œ—«Ã »Ì«‰«  API: HTTPSConnectionPool(host='jsonplaceholder.typicode.com', port=443): Max retries exceeded with url: /users (Caused by NameResolutionError("HTTPSConnection(host='jsonplaceholder.typicode.com', port=443): Failed to resolve 'jsonplaceholder.typicode.com' ([Errno 11001] getaddrinfo failed)"))
+2026-10-05 16:58:47,456 | INFO |  „ «” Œ—«Ã 6 ”Ã· „‰ ﬁ«⁄œ… »Ì«‰«  SQLite.
+2026-10-05 16:58:47,567 | INFO |  „ «” Œ—«Ã Ê ”ÊÌ… 6 ”Ã· „‰ MongoDB.
+2026-10-05 16:58:47,572 | INFO | »œ¡  ‰ŸÌ› «·»Ì«‰«  «·√”«”Ì…...
+2026-10-05 16:58:47,593 | INFO | «ﬂ „· «· ‰ŸÌ›. ⁄œœ «·”Ã·«  «·„ »ﬁÌ…: 6
+2026-10-05 16:58:47,593 | INFO | »œ¡ œ„Ã «·»Ì«‰«  „‰ Ã„Ì⁄ «·„’«œ—...
+2026-10-05 16:58:47,607 | INFO | «ﬂ „· «·œ„Ã »‰Ã«Õ. ≈Ã„«·Ì «·√⁄„œ…: ['student_id', 'student_name', 'age', 'major', 'city', 'status', 'skills', 'academic.gpa', 'academic.attendance', 'average_score']
+2026-10-05 16:58:47,607 | INFO | »œ¡ ⁄„·Ì…  ÕÊÌ· «·»Ì«‰«  (Transformation)...
+2026-10-05 16:58:47,610 | INFO | «ﬂ „·  ⁄„·Ì… «· ÕÊÌ· »‰Ã«Õ.
+2026-10-05 16:58:47,611 | INFO | »œ¡ ›Õ’ ﬁÊ«⁄œ ÃÊœ… «·»Ì«‰«  (Data Quality Rules)...
+2026-10-05 16:58:47,628 | WARNING |  „ ⁄“· 2 ”Ã· €Ì— ’«·Õ ÊÕ›ŸÂ« ›Ì data\rejected\rejected_records.csv
+2026-10-05 16:58:47,639 | ERROR | ›‘·  ‘€Ì· Pipeline »”»» Œÿ√ €Ì— „ Êﬁ⁄: [Errno 13] Permission denied: 'data\\processed\\final_dataset.csv'
+Traceback (most recent call last):
+  File "c:\Users\LENOVO\Desktop\student_data_pipeline\main.py", line 52, in run_pipeline
+    valid_final_df.to_csv(FINAL_OUTPUT, index=False)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\PythonLab\Lib\site-packages\pandas\core\generic.py", line 3976, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        path_or_buf,
+        ^^^^^^^^^^^^
+    ...<14 lines>...
+        storage_options=storage_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\PythonLab\Lib\site-packages\pandas\io\formats\format.py", line 1025, in to_csv
+    csv_formatter.save()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\PythonLab\Lib\site-packages\pandas\io\formats\csvs.py", line 251, in save
+    with get_handle(
+         ~~~~~~~~~~^
+        self.filepath_or_buffer,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        storage_options=self.storage_options,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as handles:
+    ^
+  File "C:\PythonLab\Lib\site-packages\pandas\io\common.py", line 930, in get_handle
+    handle = open(
+        handle,
+    ...<3 lines>...
+        newline="",
+    )
+PermissionError: [Errno 13] Permission denied: 'data\\processed\\final_dataset.csv'
+2026-10-05 17:03:54,494 | INFO | === »œ¡  ‘€Ì· Data Pipeline ===
+2026-10-05 17:03:54,504 | INFO |  „  Õ„Ì· 8 ”Ã· „‰ „·› CSV.
+2026-10-05 17:03:54,548 | ERROR | Œÿ√ ›Ì «” Œ—«Ã »Ì«‰«  API: HTTPSConnectionPool(host='jsonplaceholder.typicode.com', port=443): Max retries exceeded with url: /users (Caused by NameResolutionError("HTTPSConnection(host='jsonplaceholder.typicode.com', port=443): Failed to resolve 'jsonplaceholder.typicode.com' ([Errno 11001] getaddrinfo failed)"))
+2026-10-05 17:03:54,560 | INFO |  „ «” Œ—«Ã 6 ”Ã· „‰ ﬁ«⁄œ… »Ì«‰«  SQLite.
+2026-10-05 17:03:54,596 | INFO |  „ «” Œ—«Ã Ê ”ÊÌ… 6 ”Ã· „‰ MongoDB.
+2026-10-05 17:03:54,597 | INFO | »œ¡  ‰ŸÌ› «·»Ì«‰«  «·√”«”Ì…...
+2026-10-05 17:03:54,607 | INFO | «ﬂ „· «· ‰ŸÌ›. ⁄œœ «·”Ã·«  «·„ »ﬁÌ…: 6
+2026-10-05 17:03:54,607 | INFO | »œ¡ œ„Ã «·»Ì«‰«  „‰ Ã„Ì⁄ «·„’«œ—...
+2026-10-05 17:03:54,615 | INFO | «ﬂ „· «·œ„Ã »‰Ã«Õ. ≈Ã„«·Ì «·√⁄„œ…: ['student_id', 'student_name', 'age', 'major', 'city', 'status', 'skills', 'academic.gpa', 'academic.attendance', 'average_score']
+2026-10-05 17:03:54,615 | INFO | »œ¡ ⁄„·Ì…  ÕÊÌ· «·»Ì«‰«  (Transformation)...
+2026-10-05 17:03:54,617 | INFO | «ﬂ „·  ⁄„·Ì… «· ÕÊÌ· »‰Ã«Õ.
+2026-10-05 17:03:54,618 | INFO | »œ¡ ›Õ’ ﬁÊ«⁄œ ÃÊœ… «·»Ì«‰«  (Data Quality Rules)...
+2026-10-05 17:03:54,630 | WARNING |  „ ⁄“· 2 ”Ã· €Ì— ’«·Õ ÊÕ›ŸÂ« ›Ì data\rejected\rejected_records.csv
+2026-10-05 17:03:54,636 | INFO | === «ﬂ „· „”«— «·»Ì«‰«  »‰Ã«Õ! ===

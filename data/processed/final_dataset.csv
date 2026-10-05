@@ -1,0 +1,5 @@
+student_id,name,age,major,city,status,skills,gpa,attendance,average_score,performance_level,attendance_status
+1001.0,Ahmed Ali,21,Computer Science,Sanaa,Active,"['Python', 'SQL']",3.45,92,85.0,Very Good,Good
+1002.0,Sara Mohammed,22,Artificial Intelligence,Aden,Active,"['Python', 'Pandas']",3.8,96,92.0,Excellent,Good
+1003.0,Omar Hassan,20,Information Systems,Taiz,At Risk,['Networking'],2.1,65,78.0,Acceptable,Low
+1006.0,Mona Saleh,21,AI,,Active,['Design'],3.27,80,45.0,Very Good,Good
